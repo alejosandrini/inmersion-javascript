@@ -1,0 +1,107 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 250px;
+  }
+  
+  .alura-latam-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 250px;
+  }
+  
+  .cotizacion-container{
+    width: 50%;
+    background-color: aliceblue;
+    border-radius: 25px;
+    margin: auto;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+  }
+
+/*
+  nth-child es un selector que permite aplicar el estilo a determinados elementos
+  En este caso lo utilice para sólo aplicar un margen a partir del segundo input,
+  de esta forma no agrego un margen al primer elemento.
+*/
+  .cotizacion-input:nth-child(n+2){
+    margin-left: 1.5em;
+  }
+
+  input[type="text"]{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .input-nombre{
+    width: 240px;
+    margin-bottom: 4px;
+  }
+
+  .boton{
+    padding: 8px;
+    border: 2px solid #8787b7;
+    background-color: aliceblue;
+    border-radius: 4px;
+  }
+
+  .boton:hover{
+    border: 2px solid #8787b7;
+    background-color: #c9e5fd;
+  }
+
+  .valores-container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .resultado-container{
+    width: 30%;
+    background-color: aliceblue;
+    border-radius: 8px;
+    margin: 4px;
+    padding: 8px;
+  }
+
+  .bitcoin-container{
+    width: 25%;
+    background-color: aliceblue;
+    border-radius: 8px;
+    margin: 4px;
+    padding: 1px;
+  }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de monedas
+        </h1>
+        <img src="https://user-images.githubusercontent.com/121910576/257302088-d2a9edb6-75e5-4118-aaba-6f53da7715dc.png" class="page-logo" alt="">
+    </div>
+    <div class="cotizacion-container">
+        <input type="radio" class="cotizacion-input" name="cotizacion" id="dolar" value="dolar" checked>
+        <label for="dolar">Dolar</label>
+        <input type="radio" class="cotizacion-input" name="cotizacion" id="euro" value="euro">
+        <label for="euro">Euro</label>
+        <input type="radio" class="cotizacion-input" name="cotizacion" id="real" value="real">
+        <label for="real">Real</label>
+    </div>
+    <div class="container">
+        <div>
+            <input type="text" class="input-nombre" name="nombre" id="nombre" placeholder="Ingrese su nombre">
+        </div>
+        <input type="text" class="input-valor" name="valor" id="valor" placeholder="Ingrese un valor">
+        <input type="submit" class="boton" value="Calcular" onclick="calcular()">
+    </div>
+    <div class="valores-container">
+        <div class="resultado-container" id="resultado" style="display: none;"></div>
+        <div class="bitcoin-container" id="bitcoin"></div>
+    </div>
+    <a href="https://www.aluracursos.com/" target="_blank">
+        <img src="https://www.aluracursos.com/assets/img/home/alura-logo.1686744883.svg" alt="" class="alura-latam-logo">
+        <img src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Convers%C3%A3o+1.png">
+    </a>
+    <script src="main.js"></script>
+</body>
+</html>
+
