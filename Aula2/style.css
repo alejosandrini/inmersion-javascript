@@ -44,7 +44,7 @@ body {
   }
 
   .dificultad-container{
-    width: 50%;
+    width: 50vw;
     background-color: aliceblue;
     border-radius: 25px;
     margin: auto;
@@ -80,7 +80,7 @@ body {
     background-color: #c9e5fd;
   }
 
-  input[type="text"]{
+  input[type="number"]{
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -131,3 +131,24 @@ body {
     border-bottom: dashed 2px rgba(43, 0, 119,0.2);
   }
   
+  @media only screen and (max-width: 768px) {
+    .dificultad-container{
+      width: 100%;
+    }
+
+    input[type="number"]{
+      width: 100%;
+      margin-bottom: 12px;
+    }
+
+    .boton-adivinar{
+      width: 100%;
+    }
+
+    .resultados-container{
+      width: 100%;
+    }
+    label{
+      font-size:12px;
+    }
+  }

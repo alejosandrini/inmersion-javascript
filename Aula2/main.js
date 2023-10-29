@@ -67,7 +67,7 @@ function cargarJuego(dificultad, container){
         </span>
     </div>
     <div>
-      <input type="text" class="input-valor" name="valor" id="valor" placeholder="Ingrese un número" autocomplete="off">
+      <input type="number" class="input-valor" name="valor" id="valor" placeholder="Ingrese un número" autocomplete="off" min="1" max="1000">
       <input type="submit" class="boton-adivinar" value="Adivinar" onclick="adivinar()" id="submit">
     </div>
     <div class="resultados-container mt-3 d-none" id="resultados"></div>
