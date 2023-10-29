@@ -1,0 +1,133 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background_mentalista.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 170px;
+  }
+  
+  .alura-latam-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 350px;
+  }
+
+  .dificultad-container{
+    width: 50%;
+    background-color: aliceblue;
+    border-radius: 25px;
+    margin: auto;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .titulo{
+    color: #ffffff;
+    margin: 5px;
+  }
+
+  .dificultad-input:nth-child(n+2){
+    margin-left: 1.5em;
+  }
+
+  .boton{
+    padding: 8px;
+    margin: 8px;
+    border: 2px solid #8787b7;
+    background-color: aliceblue;
+    border-radius: 4px;
+    width: 240px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    font-size: medium;
+    color: #00003e;
+  }
+
+  .boton:hover, .boton-adivinar:hover{
+    border: 2px solid #8787b7;
+    background-color: #c9e5fd;
+  }
+
+  input[type="text"]{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 20vw;
+  }
+
+  .boton-adivinar{
+    padding: 8px;
+    border: 2px solid #8787b7;
+    background-color: aliceblue;
+    border-radius: 4px;
+  }
+
+  p{
+    color: #ffffff;
+    margin: 5px;
+  }
+
+  .posicion-vidas{
+    top: 1vh;
+    right: 6vw;
+  }
+
+  .resultados-container{
+    width: 60vw;
+    background-color: aliceblue;
+    border-radius: 25px;
+    margin: auto;
+    padding: 8px;
+  }
+
+  .d-none{
+    display: none;
+  }
+
+  .resultado-correcto{
+    color: darkgreen;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    font-size: medium;
+  }
+
+  .resultado-incorrecto{
+    color: darkred;
+    font-family: "Roboto Mono", monospace;
+    font-weight: bold;
+    font-size: medium;
+    border-bottom: dashed 2px rgba(43, 0, 119,0.2);
+  }
+  
